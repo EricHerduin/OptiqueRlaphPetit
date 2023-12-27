@@ -1,0 +1,22 @@
+h1 {
+  color: blue;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+
+  min-height: 100vh;
+  margin: auto;
+  box-sizing: border-box;
+}
+app-header,
+app-footer {
+  flex: 0;
+}
+.main {
+  box-sizing: border-box;
+  padding-top: 220px;
+  flex: 1;
+}

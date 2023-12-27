@@ -1,0 +1,11 @@
+<!-- breadcrumb.component.html -->
+<nav>
+  <ng-container *ngFor="let segment of breadcrumb; let last = last">
+    <ng-container *ngIf="!last">
+      <a [routerLink]="getRouterLink(segment)">{{ segment }}</a> >
+    </ng-container>
+    <ng-container *ngIf="last">
+      {{ segment }}
+    </ng-container>
+  </ng-container>
+</nav>

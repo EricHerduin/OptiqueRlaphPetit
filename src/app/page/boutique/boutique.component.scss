@@ -1,0 +1,30 @@
+#main {
+  height: auto;
+  margin-bottom: 100px;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+#info_magasin {
+  display: flex;
+  flex-flow: row;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  & img {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  & #info {
+    width: 50%;
+  }
+}
+table,
+caption,
+tr,
+td {
+  padding: 8px;
+}

@@ -1,0 +1,45 @@
+<header class="container bg-black" style="width: 100%; margin: 0; padding: 0">
+  <div
+    class="row header-site"
+    [ngClass]="{ 'transparent-header': isTransparent }"
+  >
+    <div
+      class="col-md-9"
+      style="
+        position: relative;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 50px;
+      "
+      [ngClass]="{ 'transparent-header': isTransparent }"
+    >
+      <app-menu></app-menu>
+    </div>
+    <div
+      class="col-md-3"
+      style="display: flex; align-items: center"
+      [ngClass]="{ 'transparent-logo': isTransparent }"
+    >
+      <img
+        src="/assets/images/logo Ralph Petit - RVB.jpg"
+        alt="Ralph Optique - Salon d'optique - Créateur de Regard"
+        class="col-md-3 logo-img"
+        [ngStyle]="{ transform: 'scale(' + logoScale + ')' }"
+      />
+    </div>
+  </div>
+</header>
+
+<!-- <header class="header-site" [ngClass]="{ 'transparent-header': isTransparent }">
+  <app-menu></app-menu>
+
+  <img
+    src="/assets/images/logo Ralph Petit - RVB.jpg"
+    alt="Ralph Optique - Salon d'optique - Créateur de Regard"
+    class="logo-img"
+    [ngClass]="{ 'transparent-logo': isTransparent }"
+    [ngStyle]="{ transform: 'scale(' + logoScale + ')' }"
+  />
+</header>
+<app-breadcrumb></app-breadcrumb> -->

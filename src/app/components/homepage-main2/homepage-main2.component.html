@@ -1,0 +1,13 @@
+<div class="main_2">
+  <div class="link-container">
+    <div class="link-container_page" *ngFor="let imagePath of cardInfoServices">
+      <a routerLink="{{ imagePath.pageLink }}">
+        <img class="link-container_page-img" [src]="imagePath.src" alt="" />
+        <h3 class="link-container_page-title">{{ imagePath.title }}</h3>
+        <p class="link-container_page-description">
+          {{ imagePath.description }}
+        </p>
+      </a>
+    </div>
+  </div>
+</div>

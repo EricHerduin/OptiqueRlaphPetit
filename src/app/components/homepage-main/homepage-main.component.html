@@ -1,0 +1,26 @@
+<div class="main-1">
+  <p class="text_presentation">
+    Faites confiance à l'expertise de Ralph Petit, opticien réputé, pour prendre
+    soin de votre vision et sublimer votre style. Avec plus de 35 ans
+    d'expérience, il saura vous conseiller avec justesse grâce à des examens de
+    vue complets réalisés sur place. Ses verres sur-mesure, taillés avec une
+    grande précision optique, vous offriront un confort de vision inégalé. Ses
+    montures tendance, sélectionnées chez les plus grands créateurs, mettront en
+    valeur votre regard avec élégance. Pour des lunettes uniques qui magnifient
+    votre image, Ralph Petit est le professionnel qu'il vous faut. Il vous
+    garantit un résultat optimal pour une vision parfaitement adaptée et un look
+    des plus stylés.
+  </p>
+  <h1>Ralph Petit, Créateur de regard</h1>
+  <div class="link-container">
+    <div class="link-container_page" *ngFor="let imagePath of cardInfo">
+      <a routerLink="{{ imagePath.pageLink }}">
+        <img class="link-container_page-img" [src]="imagePath.src" alt="" />
+        <h2 class="link-container_page-title">{{ imagePath.title }}</h2>
+        <p class="link-container_page-description">
+          {{ imagePath.description }}
+        </p>
+      </a>
+    </div>
+  </div>
+</div>

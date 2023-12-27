@@ -1,0 +1,24 @@
+.service {
+  position: relative;
+  padding-top: 100px;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  margin-bottom: 150px;
+  z-index: 1;
+  &-container {
+    width: 50%;
+    padding-left: 50px;
+  }
+}
+h1,
+h2,
+p {
+  margin: 0;
+  text-align: justify;
+}
+h1,
+p {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,64 @@
+.title-container {
+  display: flex;
+
+  width: 100%;
+  height: 500px;
+  padding-top: 60vh;
+}
+img {
+  width: 50%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.text-container {
+  background-color: #040a27;
+  width: 50%;
+  height: 100%;
+  color: white;
+
+  & h1 {
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 2.5em;
+  }
+  & p {
+    margin-right: 60px;
+    margin-left: 70px;
+    font-size: 0.85em;
+  }
+}
+@keyframes fadeInFromRight {
+  from {
+    opacity: 0.4;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInFromLeft {
+  from {
+    opacity: 0.4;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.title-container {
+  position: relative;
+}
+
+.text-container {
+  animation: fadeInFromRight 2s ease;
+}
+img {
+  opacity: 1;
+  animation: fadeInFromLeft 2s ease;
+}

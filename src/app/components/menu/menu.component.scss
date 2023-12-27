@@ -1,0 +1,71 @@
+// .button-container div {
+//   transition: opacity 0.3s ease; /* Ajoute une transition de 0.3 secondes sur l'opacité */
+// }
+
+// .menu-bars {
+//   opacity: 1; /* Par défaut, les barres sont complètement visibles */
+// }
+
+// .menu-cross {
+//   opacity: 0; /* Par défaut, la croix est invisible */
+// }
+button {
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  z-index: 999;
+}
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+}
+
+.button-container {
+  align-items: center;
+  text-align: center;
+  z-index: 999;
+  margin: auto;
+}
+.menu {
+  position: fixed;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 60px;
+
+  left: 100px;
+  background-color: transparent;
+
+  z-index: 500;
+  opacity: 1; /* Par défaut, le menu est complètement visible */
+  transition: opacity 1s ease;
+}
+.open:after {
+  transition: opacity 1s ease;
+}
+ul {
+  display: flex;
+  flex-flow: row;
+}
+ul,
+li {
+  color: white;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0 10px 0 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}

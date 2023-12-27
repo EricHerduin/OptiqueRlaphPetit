@@ -1,0 +1,59 @@
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label>Nom:</label>
+    <input type="text" [formControl]="nom" />
+  </div>
+  <div>
+    <label>Prénom:</label>
+    <input type="text" [formControl]="prenom" />
+  </div>
+  <div>
+    <label>Email:</label>
+    <input
+      type="email"
+      [formControl]="email"
+      class="ng-touched ng-dirty"
+      [ngClass]="{
+        'border-red': email.invalid && (email.dirty || email.touched)
+      }"
+    />
+  </div>
+  <div>
+    <label>Téléphone:</label>
+    <input
+      type="tel"
+      [formControl]="telephone"
+      class="ng-touched ng-dirty"
+      [ngClass]="{
+        'border-red':
+          telephone.invalid && (telephone.dirty || telephone.touched)
+      }"
+    />
+  </div>
+  <div>
+    <label>Motif du contact:</label>
+    <select [formControl]="motif">
+      <option value="renseignement">Renseignement</option>
+      <option value="rdv">Demande de RDV</option>
+      <option value="depannage">Dépannage</option>
+      <option value="reclamation">Réclamation</option>
+      <option value="autre">Autre</option>
+    </select>
+  </div>
+  <div>
+    <label>Message:</label>
+    <textarea [formControl]="message"></textarea>
+  </div>
+  <button
+    type="submit"
+    [disabled]="
+      !nom.valid ||
+      !prenom.valid ||
+      !email.valid ||
+      !telephone.valid ||
+      !motif.valid
+    "
+  >
+    Envoyer
+  </button>
+</form>
