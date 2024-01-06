@@ -1,8 +1,5 @@
-<div
-  class="main"
-  [@fadeAnimation]="outlet.isActivated ? outlet.activatedRoute : ''"
->
+<div class="main">
   <a routerLink="/equipements/nos_collections">Verres Optiques</a>
   <a routerLink="/equipements/nos_lentilles">Lentilles</a>
-  <router-outlet #outlet="outlet"></router-outlet>
+  <router-outlet></router-outlet>
 </div>

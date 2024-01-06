@@ -50,7 +50,7 @@ export class HeaderComponent {
       document.documentElement.scrollTop ||
       document.body.scrollTop ||
       0;
-    this.isTransparent = scrollPosition >= 230;
+    this.isTransparent = scrollPosition >= 430;
     this.logoScale = this.isTransparent ? 0.3 : 1;
   }
 }

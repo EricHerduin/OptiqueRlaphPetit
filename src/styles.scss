@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 app-root {
   position: relative;
@@ -11,13 +11,22 @@ body {
   width: 100%;
   margin: 0;
   font-weight: 400;
-  font-family: "Monserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   // background-color: black;
   transition: all 0.3s ease;
   box-sizing: border-box;
 }
 a {
   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 html,
