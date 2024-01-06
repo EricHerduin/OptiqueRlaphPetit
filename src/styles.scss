@@ -1,17 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
-* {
-  font-family: "Poppins", sans-serif;
-}
+
 app-root {
   position: relative;
   width: 100%;
 }
+:root {
+  font-family: "Montserrat", "Poppins", Arial, Helvetica, sans-serif;
+}
 body {
   width: 100%;
   margin: 0;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
+
   // background-color: black;
   transition: all 0.3s ease;
   box-sizing: border-box;
@@ -26,17 +26,14 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 html,
 body {
   height: 100%;
 }
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-}
+
 app-header,
 app-footer {
   flex: 0;
