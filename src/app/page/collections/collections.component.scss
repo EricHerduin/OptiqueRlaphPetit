@@ -1,3 +1,7 @@
+h1 {
+  width: 80%;
+  margin: 0 auto;
+}
 .marques {
   position: relative;
 
@@ -5,13 +9,20 @@
   margin: 0 auto;
   justify-content: space-between;
   flex-flow: row wrap;
-  width: 70%;
+  width: 80%;
   text-align: center;
 }
 .marqueCard {
-  width: 25%;
-  height: 100px;
+  width: 15%;
+  height: 50px;
+  margin: 0;
+  color: #444444;
+
   text-align: center;
-  border: 1px solid black;
-  margin: 20px;
+  border: 0.5px solid gainsboro;
+  // box-shadow: 4px 4px 16px #444444;
+  & div h2 {
+    line-height: 50px;
+    font-size: 20px;
+  }
 }
