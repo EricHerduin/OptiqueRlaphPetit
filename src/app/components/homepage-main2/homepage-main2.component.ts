@@ -25,7 +25,7 @@ export class HomepageMain2Component {
     this.cardInfoServices.push({
       src: "assets/images/stable-diffusion-xl3.jpeg",
       title: "Nos Collections",
-      pageLink: "/nos_collections",
+      pageLink: "/equipements",
       description: "Le must du style pour sublimer votre regard.",
     });
     this.cardInfoServices.push({
