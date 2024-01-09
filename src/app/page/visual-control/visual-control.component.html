@@ -1,6 +1,6 @@
-<div class="main visual-container">
-  <section>
-    <div class="visual-item">
+<div class="main">
+  <div class="container row">
+    <div class="visual-container col-lg-6 col-md-7">
       <h1>Contrôle Visuel</h1>
       <p>
         L'appareil DNEYE de Rodenstock® révolutionne l'analyse de la vision
@@ -18,19 +18,26 @@
         votre capital visuel.
       </p>
     </div>
-    <div class="visual-item img">
+    <div class="visual-item col-lg-4 col-md-5 img">
       <app-image-box
         imagePath="/assets/images/Rodenstock_DNEye_1.webp"
         backgroundColor="#000000"
       ></app-image-box>
     </div>
-  </section>
-  <section class="iframe_box">
-    <app-iframe-box
-      framePath="https://www.youtube.com/embed/3vQbjatd2qA"
-      frameTitle="Rodenstock - Technologie DNEyeⓇ"
-      widthFrame="560"
-      heightFrame="315"
-    ></app-iframe-box>
-  </section>
+  </div>
+  <div class="youtube_container">
+    <div class="iframe_box container row">
+      <div class="col-md-4 col-lg-5 text-center title_dneye">
+        <h2>Découvrez notre Contrôle Visuel DNEYE de chez Rodenstock</h2>
+      </div>
+      <div class="col-md-12 col-lg-7 iframe_box">
+        <app-iframe-box
+          framePath="https://www.youtube.com/embed/3vQbjatd2qA"
+          frameTitle="Rodenstock - Technologie DNEyeⓇ"
+          widthFrame="560"
+          heightFrame="315"
+        ></app-iframe-box>
+      </div>
+    </div>
+  </div>
 </div>

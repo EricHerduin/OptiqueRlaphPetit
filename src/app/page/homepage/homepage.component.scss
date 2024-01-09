@@ -1,1 +1,12 @@
+/* Styles pour masquer le contenu par défaut */
+app-homepage {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out;
+}
 
+/* Styles pour afficher le contenu une fois chargé */
+app-homepage.page-loaded {
+  opacity: 1;
+  visibility: visible;
+}
