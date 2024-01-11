@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-flow: column;
-  padding-top: 100px;
+  padding-top: 50px;
   margin: 0 auto;
 }
 .button_container {
@@ -24,9 +24,9 @@
     font-size: 1em;
     color: #ffffff;
     background-color: #c4bd97;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
     border: 1px solid #ffffff;
     box-shadow: 3px 3px 16px #444444;
     -webkit-box-shadow: 3px 3px 16px #444444;
