@@ -38,7 +38,7 @@ import { VideoBoxComponent } from "./components/video-box/video-box.component";
 import { IframeBoxComponent } from "./components/iframe-box/iframe-box.component";
 import { EquipementsComponent } from "./page/equipements/equipements.component";
 import { LentillesComponent } from "./page/equipements/equipement/lentilles.component";
-import { CarousselComponent } from './components/caroussel/caroussel.component';
+import { CarousselComponent } from "./components/caroussel/caroussel.component";
 
 @NgModule({
   declarations: [
