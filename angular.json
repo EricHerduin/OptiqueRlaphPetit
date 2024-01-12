@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "htag_site": {
+    "OptiqueRalphPetit": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -18,7 +18,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/functions/browser",
+            "outputPath": "dist/OptiqueRalphPetit/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -39,24 +39,19 @@
             "scripts": [
               "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
-            // "server": "src/main.server.ts",
-            // "prerender": true,
-            // "ssr": {
-            //   "entry": "server.ts"
-            // }
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "150kb",
+                  "maximumError": "200kb"
                 }
               ],
               "outputHashing": "all"
@@ -76,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "htag_site:build:production"
+              "buildTarget": "OptiqueRalphPetit:build:production"
             },
             "development": {
-              "browserTarget": "htag_site:build:development"
+              "buildTarget": "OptiqueRalphPetit:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -87,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "htag_site:build"
+            "buildTarget": "OptiqueRalphPetit:build"
           }
         },
         "test": {
@@ -107,9 +102,8 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/functions/server",
+            "outputPath": "dist/OptiqueRalphPetit/server",
             "main": "server.ts",
-
             "tsConfig": "tsconfig.server.json",
             "inlineStyleLanguage": "scss"
           },
@@ -128,32 +122,34 @@
           "defaultConfiguration": "production"
         },
         "serve-ssr": {
-          "builder": "@nguniversal/builders:ssr-dev-server",
+          "builder": "@angular-devkit/build-angular:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "htag_site:build:development",
-              "serverTarget": "htag_site:server:development"
+              "browserTarget": "OptiqueRalphPetit:build:development",
+              "serverTarget": "OptiqueRalphPetit:server:development"
             },
             "production": {
-              "browserTarget": "htag_site:build:production",
-              "serverTarget": "htag_site:server:production"
+              "browserTarget": "OptiqueRalphPetit:build:production",
+              "serverTarget": "OptiqueRalphPetit:server:production"
             }
           },
           "defaultConfiguration": "development"
         },
         "prerender": {
-          "builder": "@nguniversal/builders:prerender",
+          "builder": "@angular-devkit/build-angular:prerender",
           "options": {
-            "routes": ["/"]
+            "routes": [
+              "/"
+            ]
           },
           "configurations": {
             "production": {
-              "browserTarget": "htag_site:build:production",
-              "serverTarget": "htag_site:server:production"
+              "browserTarget": "OptiqueRalphPetit:build:production",
+              "serverTarget": "OptiqueRalphPetit:server:production"
             },
             "development": {
-              "browserTarget": "htag_site:build:development",
-              "serverTarget": "htag_site:server:development"
+              "browserTarget": "OptiqueRalphPetit:build:development",
+              "serverTarget": "OptiqueRalphPetit:server:development"
             }
           },
           "defaultConfiguration": "production"

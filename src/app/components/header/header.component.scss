@@ -24,8 +24,7 @@
   height: 180px;
   border: 1px white solid;
   transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
-
-  transform: translateY(50%);
+  transform: translateY(100px);
 
   &.transparent-logo {
     transition-delay: 0.9s; /* Ajoutez le délai ici */
@@ -40,4 +39,7 @@
   &.transparent-logo {
     height: 100%;
   }
+}
+.transparent-logo {
+  height: 80px;
 }
