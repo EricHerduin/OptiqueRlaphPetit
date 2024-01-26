@@ -2,34 +2,74 @@
   "marques": [
     {
       "nom": "Karavan",
-      "logo": "logoA",
+      "logo": "assets/images/logo-fournisseurs/Logo-Karavan-noir.png",
       "adressesURL": [
         "https://exemple.com/photo1.jpg",
         "https://exemple.com/photo2.jpg"
       ]
     },
     {
-      "nom": "Nike",
-      "logo": "logoB",
+      "nom": "Karavan Kids",
+      "logo": "assets/images/logo-fournisseurs/Logo_Karavan_Kids.png",
       "adressesURL": [
         "https://exemple.com/photo3.jpg",
         "https://exemple.com/photo4.jpg"
       ]
     },
     {
-      "nom": "Rezin",
-      "logo": "logoC",
+      "nom": "Lohn Lennon",
+      "logo": "assets/images/logo-fournisseurs/Logo_John_Lennon.png",
       "adressesURL": [
         "https://exemple.com/photo5.jpg",
         "https://exemple.com/photo6.jpg"
       ]
     },
     {
-      "nom": "Oxibis",
-      "logo": "logoD",
+      "nom": "Noego",
+      "logo": "assets/images/logo-fournisseurs/newlogo-NOEGO-black.png",
       "adressesURL": [
         "https://exemple.com/photo7.jpg",
         "https://exemple.com/photo8.jpg"
+      ]
+    },
+    {
+      "nom": "Marque E",
+      "logo": "logoE",
+      "adressesURL": [
+        "https://exemple.com/photo9.jpg",
+        "https://exemple.com/photo10.jpg"
+      ]
+    },
+    {
+      "nom": "Marque E",
+      "logo": "logoE",
+      "adressesURL": [
+        "https://exemple.com/photo9.jpg",
+        "https://exemple.com/photo10.jpg"
+      ]
+    },
+    {
+      "nom": "Marque E",
+      "logo": "logoE",
+      "adressesURL": [
+        "https://exemple.com/photo9.jpg",
+        "https://exemple.com/photo10.jpg"
+      ]
+    },
+    {
+      "nom": "Marque E",
+      "logo": "logoE",
+      "adressesURL": [
+        "https://exemple.com/photo9.jpg",
+        "https://exemple.com/photo10.jpg"
+      ]
+    },
+    {
+      "nom": "Marque E",
+      "logo": "logoE",
+      "adressesURL": [
+        "https://exemple.com/photo9.jpg",
+        "https://exemple.com/photo10.jpg"
       ]
     },
     {

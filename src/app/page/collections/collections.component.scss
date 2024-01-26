@@ -7,23 +7,34 @@ h1 {
   position: relative;
 
   display: flex;
+  justify-content: space-evenly;
   margin: 0 auto;
-  justify-content: space-between;
+  height: auto;
   flex-flow: row wrap;
-  width: 80%;
+
   text-align: center;
+  &_list {
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+  }
 }
+
 .marqueCard {
   width: 15%;
   height: 50px;
   margin: 0;
-  color: #444444;
 
   text-align: center;
-  border: 0.5px solid gainsboro;
+
   // box-shadow: 4px 4px 16px #444444;
   & div h2 {
     line-height: 50px;
     font-size: 20px;
   }
+}
+img {
+  height: 60px;
+  width: 100%;
+  object-fit: contain;
 }
