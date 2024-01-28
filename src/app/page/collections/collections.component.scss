@@ -16,25 +16,28 @@ h1 {
   &_list {
     display: flex;
     flex-flow: column;
-    width: 40%;
+    width: 20%;
+    height: 800px;
+  }
+  & .marqueCard {
+    margin: 0;
+
+    text-align: center;
+
+    // box-shadow: 4px 4px 16px #444444;
+    & div h2 {
+      font-size: 20px;
+    }
   }
 }
-
-.marqueCard {
-  width: 15%;
-  height: 50px;
-  margin: 0;
-
-  text-align: center;
-
-  // box-shadow: 4px 4px 16px #444444;
-  & div h2 {
-    line-height: 50px;
-    font-size: 20px;
-  }
+.logo_link {
+  display: flex;
+  flex-flow: column;
+  height: 100px;
 }
+
 img {
-  height: 60px;
-  width: 100%;
+  height: 50px;
+
   object-fit: contain;
 }

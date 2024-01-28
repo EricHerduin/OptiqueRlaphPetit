@@ -7,9 +7,8 @@
         *ngFor="let marque of marques"
         routerLink="/equipements/nos_collections/{{ marque.nom }}"
       >
-        <div>
+        <div class="logo_link">
           <img class="logo" [src]="marque.logo" alt="" />
-          <h2>{{ marque.nom }}</h2>
         </div>
       </a>
     </div>
