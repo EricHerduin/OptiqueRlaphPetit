@@ -10,7 +10,7 @@ import { Marque } from "src/app/Interfaces/marque.interface";
 })
 export class CollectionComponent implements OnInit {
   marqueData: any;
-  imageList: any[] = [];
+  imageList: string[] = [];
 
   constructor(
     private route: ActivatedRoute,
@@ -23,8 +23,8 @@ export class CollectionComponent implements OnInit {
       if (nomMarque) {
         this.marqueService.getMarqueData(nomMarque).subscribe((data) => {
           this.marqueData = data;
-          console.log(this.marqueData.logo);
-          this.imageList = this.marqueData.adresseUrl;
+
+          console.log(this.marqueData.adressesURL);
         });
       }
     });

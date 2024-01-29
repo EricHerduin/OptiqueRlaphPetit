@@ -41,7 +41,6 @@ export class BreadcrumbComponent implements OnInit {
       // Si c'est le premier élément, retourne seulement le segment
       return ["/", segment];
     } else if (index > 0) {
-      console.log(this.breadcrumb.slice(0, index + 1));
       // Si l'élément est trouvé, retourne le chemin jusqu'à l'élément inclus
       return ["/", ...breadcrumbWithoutHome.slice(0, index + 1)];
     } else {
