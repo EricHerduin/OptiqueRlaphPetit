@@ -69,18 +69,18 @@ export const routes: Routes = [
           changefreq: "daily",
           priority: "1.0",
         },
-        children: [
-          {
-            path: ":nomMarque",
-            component: CollectionComponent,
-            data: {
-              loc: "/nos_collections",
-              lastmod: "2023-10-09",
-              changefreq: "daily",
-              priority: "1.0",
-            },
-          },
-        ],
+        // children: [
+        //   {
+        //     path: ":nomMarque",
+        //     component: CollectionComponent,
+        //     data: {
+        //       loc: "/nos_collections/:nomMarque",
+        //       lastmod: "2023-10-09",
+        //       changefreq: "daily",
+        //       priority: "1.0",
+        //     },
+        //   },
+        // ],
       },
       {
         path: "nos_lentilles",
@@ -108,6 +108,16 @@ export const routes: Routes = [
   {
     path: "notre_boutique",
     component: BoutiqueComponent,
+    data: {
+      loc: "/notre_boutique",
+      lastmod: "2023-10-09",
+      changefreq: "weekly",
+      priority: "1.0",
+    },
+  },
+  {
+    path: "equipements/nos_collections/:nomMarque",
+    component: CollectionComponent,
     data: {
       loc: "/notre_boutique",
       lastmod: "2023-10-09",

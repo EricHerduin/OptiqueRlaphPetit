@@ -1,80 +1,120 @@
 {
   "marques": [
     {
+      "id": "karavan",
       "nom": "Karavan",
       "logo": "assets/images/logo-fournisseurs/Logo-Karavan-noir.png",
+      "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo1.jpg",
         "https://exemple.com/photo2.jpg"
       ]
     },
     {
+      "id": "karavanKids",
       "nom": "Karavan Kids",
       "logo": "assets/images/logo-fournisseurs/Logo_Karavan_Kids.png",
+      "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo3.jpg",
         "https://exemple.com/photo4.jpg"
       ]
     },
     {
-      "nom": "Lohn Lennon",
+      "id": "johnlennon",
+      "nom": "John Lennon",
       "logo": "assets/images/logo-fournisseurs/Logo_John_Lennon.png",
+      "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo5.jpg",
         "https://exemple.com/photo6.jpg"
       ]
     },
     {
+      "id": "noego",
       "nom": "Noego",
       "logo": "assets/images/logo-fournisseurs/newlogo-NOEGO-black.png",
+      "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo7.jpg",
         "https://exemple.com/photo8.jpg"
       ]
     },
     {
-      "nom": "Marque E",
-      "logo": "logoE",
+      "id": "jfrey",
+      "nom": "J.F. Rey",
+      "logo": "assets/images/logo-fournisseurs/JFREY_Wired_Logo_BLK.png",
+      "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
         "https://exemple.com/photo10.jpg"
       ]
     },
     {
-      "nom": "Marque E",
-      "logo": "logoE",
+      "id": "artkentiel",
+      "nom": "ART'KENTIEL",
+      "logo": "assets/images/logo-fournisseurs/43_logo@6554C393.png",
+      "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
         "https://exemple.com/photo10.jpg"
       ]
     },
     {
-      "nom": "Marque E",
-      "logo": "logoE",
+      "id": "alpine",
+      "nom": "ALPINE",
+      "logo": "assets/images/logo-fournisseurs/logo-alpine-eyewear-l.png",
+      "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
         "https://exemple.com/photo10.jpg"
       ]
     },
     {
-      "nom": "Marque E",
-      "logo": "logoE",
+      "id": "frenchretro",
+      "nom": "FRENCH RETRO",
+      "logo": "assets/images/logo-fournisseurs/logo-frenchretro-200x200-1.png",
+      "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
         "https://exemple.com/photo10.jpg"
       ]
     },
     {
-      "nom": "Marque E",
-      "logo": "logoE",
+      "id": "rezin",
+      "nom": "REZIN",
+      "logo": "assets/images/logo-fournisseurs/logo-rezin.jpg",
+      "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
         "https://exemple.com/photo10.jpg"
       ]
     },
     {
-      "nom": "Marque E",
-      "logo": "logoE",
+      "id": "kaleos",
+      "nom": "KALEOS",
+      "logo": "assets/images/logo-fournisseurs/Kaleos.png",
+      "thumb": "",
+      "adressesURL": [
+        "https://exemple.com/photo9.jpg",
+        "https://exemple.com/photo10.jpg"
+      ]
+    },
+    {
+      "id": "xit",
+      "nom": "X I T",
+      "logo": "assets/images/logo-fournisseurs/Logo_XIT_BBR.jpg",
+      "thumb": "",
+      "adressesURL": [
+        "https://exemple.com/photo9.jpg",
+        "https://exemple.com/photo10.jpg"
+      ]
+    },
+    {
+      "id": "vanni",
+      "nom": "VANNI",
+      "logo": "assets/images/logo-fournisseurs/Logo_Vanni.png",
+      "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
         "https://exemple.com/photo10.jpg"
