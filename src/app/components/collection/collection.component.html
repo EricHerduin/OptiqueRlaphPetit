@@ -1,5 +1,10 @@
 <div class="marqueCard_item">
   <p>ici va s'afficher la collection de la marque choisie</p>
-  <p *ngFor="let img of marqueData.adressesURL">{{ img }}</p>
-  <h2>{{ marqueData.nom }}</h2>
+  <div class="gallery">
+    <div class="grid-container">
+      <div class="grid-item" *ngFor="let image of imageList">
+        <img [src]="image" alt="Image" />
+      </div>
+    </div>
+  </div>
 </div>

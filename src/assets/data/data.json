@@ -66,8 +66,9 @@
       "logo": "assets/images/logo-fournisseurs/logo-alpine-eyewear-l.png",
       "thumb": "",
       "adressesURL": [
-        "https://exemple.com/photo9.jpg",
-        "https://exemple.com/photo10.jpg"
+        "assets/images/fournisseurs/alpine/photo1.jpg",
+        "assets/images/fournisseurs/alpine/photo2.jpg",
+        "assets/images/fournisseurs/alpine/photo3.jpg"
       ]
     },
     {

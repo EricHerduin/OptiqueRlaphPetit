@@ -9,7 +9,11 @@ app-visual-control.page-loaded {
   opacity: 1;
   visibility: visible;
 }
-
+.container {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 div {
   background-color: white;
   position: relative;
@@ -45,7 +49,7 @@ div {
 }
 .youtube_container {
   width: 100%;
-  background-color: black;
+  background-color: #69898d;
   margin-top: 50px;
   padding-top: 30px;
   padding-bottom: 50px;
@@ -68,12 +72,12 @@ p {
 .iframe_box {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: transparentize($color: #000000, $amount: 0);
   align-items: center;
   margin: 0 auto;
 }
 .title_dneye {
-  background: black;
+  background-color: transparentize($color: #000000, $amount: 0);
 
   color: white;
   display: flex;
@@ -90,4 +94,9 @@ p {
 app-iframe-box {
   align-items: center;
   margin: 0 auto;
+}
+.rodenstock_pub {
+  height: 300px;
+  margin: 0 auto;
+  align-items: center;
 }

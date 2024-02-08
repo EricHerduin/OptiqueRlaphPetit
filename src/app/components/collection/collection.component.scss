@@ -1,3 +1,25 @@
 .marqueCard_item {
   min-height: 500px;
 }
+.gallery {
+  width: 80%;
+  margin: 0 auto;
+}
+.gallery {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px;
+  }
+
+  .grid-item {
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover; /* Pour s'assurer que les images remplissent complètement le conteneur */
+
+      /* Ajoutez des styles supplémentaires pour l'apparence et l'espacement si nécessaire */
+    }
+  }
+}

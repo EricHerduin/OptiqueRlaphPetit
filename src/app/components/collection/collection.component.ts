@@ -23,8 +23,7 @@ export class CollectionComponent implements OnInit {
       if (nomMarque) {
         this.marqueService.getMarqueData(nomMarque).subscribe((data) => {
           this.marqueData = data;
-
-          console.log(this.marqueData.adressesURL);
+          this.imageList = this.marqueData.adressesURL;
         });
       }
     });
