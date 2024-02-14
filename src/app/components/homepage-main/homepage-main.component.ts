@@ -35,7 +35,7 @@ export class HomepageMainComponent implements OnInit {
       title: "Contrôle Visuel",
       pageLink: "/controle_visuel",
       description:
-        "Un service de contrôle visuel  le plus innovent et unique au monde",
+        "Un service de contrôle visuel  le plus innovant et unique au monde",
     });
     this.cardInfo.push({
       src: "assets/images/IMG_2267.jpeg",

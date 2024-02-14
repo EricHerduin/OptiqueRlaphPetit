@@ -4,6 +4,12 @@
 .gallery {
   width: 80%;
   margin: 0 auto;
+
+  & > img {
+    height: 75px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+  }
 }
 .gallery {
   .grid-container {

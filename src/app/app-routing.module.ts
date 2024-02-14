@@ -15,13 +15,15 @@ import { CollectionComponent } from "./components/collection/collection.componen
 import { BoutiqueComponent } from "./page/boutique/boutique.component";
 import { EquipementsComponent } from "./page/equipements/equipements.component";
 import { LentillesComponent } from "./page/equipements/equipement/lentilles.component";
-
+import { ScrollPositionRestorationGuard } from "./guards/scroll-position-restoration.guard";
+import { DomicileComponent } from "./page/domicile/domicile.component";
 export const routes: Routes = [
   { path: "Accueil", redirectTo: "", pathMatch: "full" },
 
   {
     path: "",
     component: HomepageComponent,
+    canActivate: [ScrollPositionRestorationGuard],
     data: {
       loc: "/",
       lastmod: "2023-10-09",
@@ -32,6 +34,7 @@ export const routes: Routes = [
   {
     path: "a_propos",
     component: AboutComponent,
+    canActivate: [ScrollPositionRestorationGuard],
     data: {
       loc: "/a_propos",
       lastmod: "2023-10-09",
@@ -42,6 +45,7 @@ export const routes: Routes = [
   {
     path: "controle_visuel",
     component: VisualControlComponent,
+    canActivate: [ScrollPositionRestorationGuard],
     data: {
       loc: "/controle_visuel",
       lastmod: "2023-10-09",
@@ -53,6 +57,7 @@ export const routes: Routes = [
     path: "equipements",
 
     component: EquipementsComponent,
+    canActivate: [ScrollPositionRestorationGuard],
     data: {
       loc: "/equipements",
       lastmod: "2023-10-09",
@@ -63,6 +68,7 @@ export const routes: Routes = [
       {
         path: "nos_collections",
         component: CollectionsComponent,
+        canActivate: [ScrollPositionRestorationGuard],
         data: {
           loc: "/nos_collections",
           lastmod: "2023-10-09",
@@ -85,6 +91,7 @@ export const routes: Routes = [
       {
         path: "nos_lentilles",
         component: LentillesComponent,
+        canActivate: [ScrollPositionRestorationGuard],
         data: {
           loc: "/nos_lentilles",
           lastmod: "2023-10-09",
@@ -98,6 +105,7 @@ export const routes: Routes = [
   {
     path: "service",
     component: ServiceComponent,
+    canActivate: [ScrollPositionRestorationGuard],
     data: {
       loc: "/service",
       lastmod: "2023-10-09",
@@ -106,8 +114,20 @@ export const routes: Routes = [
     },
   },
   {
+    path: "service/service-a-domicile",
+    component: DomicileComponent,
+    canActivate: [ScrollPositionRestorationGuard],
+    data: {
+      loc: "/service/service-a-domicile",
+      lastmod: "2023-10-09",
+      changefreq: "weekly",
+      priority: "1.0",
+    },
+  },
+  {
     path: "notre_boutique",
     component: BoutiqueComponent,
+    canActivate: [ScrollPositionRestorationGuard],
     data: {
       loc: "/notre_boutique",
       lastmod: "2023-10-09",
@@ -118,6 +138,7 @@ export const routes: Routes = [
   {
     path: "equipements/nos_collections/:nomMarque",
     component: CollectionComponent,
+    canActivate: [ScrollPositionRestorationGuard],
     data: {
       loc: "/notre_boutique",
       lastmod: "2023-10-09",
@@ -128,6 +149,7 @@ export const routes: Routes = [
   {
     path: "contact",
     component: ContactComponent,
+    canActivate: [ScrollPositionRestorationGuard],
     data: {
       loc: "/contact",
       lastmod: "2023-10-09",
@@ -138,6 +160,7 @@ export const routes: Routes = [
       {
         path: "",
         component: MailingComponent,
+        canActivate: [ScrollPositionRestorationGuard],
         data: {
           loc: "/contact/",
           lastmod: "2023-10-09",
@@ -148,6 +171,7 @@ export const routes: Routes = [
       {
         path: "mailing",
         component: MailingComponent,
+        canActivate: [ScrollPositionRestorationGuard],
         data: {
           loc: "/contact/mailing",
           lastmod: "2023-10-09",
@@ -158,6 +182,7 @@ export const routes: Routes = [
       {
         path: "mapping",
         component: MappingComponent,
+        canActivate: [ScrollPositionRestorationGuard],
         data: {
           loc: "/contact/mapping",
           lastmod: "2023-10-09",
@@ -168,6 +193,7 @@ export const routes: Routes = [
       {
         path: "website",
         component: WebsiteComponent,
+        canActivate: [ScrollPositionRestorationGuard],
         data: {
           loc: "/contact/website",
           lastmod: "2023-10-09",
