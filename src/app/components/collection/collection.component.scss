@@ -21,9 +21,9 @@
   .grid-item {
     img {
       width: 100%;
-      height: auto;
+      height: 400px;
       display: block;
-      object-fit: cover; /* Pour s'assurer que les images remplissent complètement le conteneur */
+      object-fit: contain; /* Pour s'assurer que les images remplissent complètement le conteneur */
 
       /* Ajoutez des styles supplémentaires pour l'apparence et l'espacement si nécessaire */
     }
