@@ -4,16 +4,18 @@
       "id": "karavan",
       "nom": "Karavan",
       "logo": "assets/images/logo-fournisseurs/Logo-Karavan-noir.png",
+      "alt": "Karavan",
       "thumb": "",
       "adressesURL": [
-        "https://exemple.com/photo1.jpg",
-        "https://exemple.com/photo2.jpg"
+        "assets/images/fournisseurs/karavan/photo1.jpg",
+        "assets/images/fournisseurs/karavan/photo2.jpg"
       ]
     },
     {
       "id": "karavanKids",
       "nom": "Karavan Kids",
       "logo": "assets/images/logo-fournisseurs/Logo_Karavan_Kids.png",
+      "alt": "Karavan Kids",
       "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo3.jpg",
@@ -24,6 +26,7 @@
       "id": "johnlennon",
       "nom": "John Lennon",
       "logo": "assets/images/logo-fournisseurs/Logo_John_Lennon.png",
+      "alt": "John Lennon",
       "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo5.jpg",
@@ -34,6 +37,7 @@
       "id": "noego",
       "nom": "Noego",
       "logo": "assets/images/logo-fournisseurs/newlogo-NOEGO-black.png",
+      "alt": "Noego",
       "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo7.jpg",
@@ -44,6 +48,7 @@
       "id": "jfrey",
       "nom": "J.F. Rey",
       "logo": "assets/images/logo-fournisseurs/JFREY_Wired_Logo_BLK.png",
+      "alt": "J.F. Rey",
       "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
@@ -54,16 +59,20 @@
       "id": "artkentiel",
       "nom": "ART'KENTIEL",
       "logo": "assets/images/logo-fournisseurs/43_logo@6554C393.png",
+      "alt": "Art'Kentiel",
       "thumb": "",
       "adressesURL": [
-        "https://exemple.com/photo9.jpg",
-        "https://exemple.com/photo10.jpg"
+        "assets/images/fournisseurs/artkentiel/photo1.jpeg",
+        "assets/images/fournisseurs/artkentiel/photo4.jpeg",
+        "assets/images/fournisseurs/artkentiel/photo2.jpeg",
+        "assets/images/fournisseurs/artkentiel/photo3.jpeg"
       ]
     },
     {
       "id": "alpine",
       "nom": "ALPINE",
       "logo": "assets/images/logo-fournisseurs/logo-alpine-eyewear-l.png",
+      "alt": "Alpine",
       "thumb": "",
       "adressesURL": [
         "assets/images/fournisseurs/alpine/photo1.jpg",
@@ -71,10 +80,23 @@
         "assets/images/fournisseurs/alpine/photo3.jpg"
       ]
     },
+
+    {
+      "id": "charmantz",
+      "nom": "CHARMANTZ",
+      "logo": "",
+      "alt": "CharmantZ - Logo à trouver",
+      "thumb": "",
+      "adressesURL": [
+        "https://exemple.com/photo9.jpg",
+        "https://exemple.com/photo10.jpg"
+      ]
+    },
     {
       "id": "frenchretro",
       "nom": "FRENCH RETRO",
       "logo": "assets/images/logo-fournisseurs/logo-frenchretro-200x200-1.png",
+      "alt": "French Retro",
       "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
@@ -85,6 +107,7 @@
       "id": "rezin",
       "nom": "REZIN",
       "logo": "assets/images/logo-fournisseurs/logo-rezin.jpg",
+      "alt": "Rezin",
       "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
@@ -95,6 +118,7 @@
       "id": "kaleos",
       "nom": "KALEOS",
       "logo": "assets/images/logo-fournisseurs/Kaleos.png",
+      "alt": "Kaleos",
       "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
@@ -105,6 +129,7 @@
       "id": "xit",
       "nom": "X I T",
       "logo": "assets/images/logo-fournisseurs/Logo_XIT_BBR.jpg",
+      "alt": "X.I.T.",
       "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
@@ -115,6 +140,7 @@
       "id": "vanni",
       "nom": "VANNI",
       "logo": "assets/images/logo-fournisseurs/Logo_Vanni.png",
+      "alt": "Vanni",
       "thumb": "",
       "adressesURL": [
         "https://exemple.com/photo9.jpg",
