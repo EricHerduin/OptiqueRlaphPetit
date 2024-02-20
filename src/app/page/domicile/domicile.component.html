@@ -1,44 +1,22 @@
 <div class="container row service-home">
-  <h1>Service à Domicile : Prenons le temps de choisir !</h1>
+  <h1>Service à Domicile : Prenez le temps de choisir !</h1>
   <img src="assets/images/Voiture-animation.gif" alt="" />
-  <div class="col-lg-2 service-icon">
-    <h2>Votre opticien à domicile</h2>
-    <p>
-      Découvrez notre service sur mesure ! Réservez un rendez-vous, notre
-      opticien se déplace à votre convenance sur le lieu de votre choix.
-    </p>
-    <p>Votre bien-être, notre mission !</p>
+  <div>
+    <h2 class="text-center">
+      A domicile, sur votre lieu de travail, en Ehpad, ... <br />Optez pour
+      notre service à domicile
+    </h2>
   </div>
-  <div class="col-lg-2 service-icon">
-    <h2>Une approche personnalisée</h2>
-    <p>
-      Des échanges approfondis, une évaluation précise de vos besoins, notre
-      opticien est là pour vous conseiller au mieux.
-    </p>
-    <p>Votre satisfaction, notre objectif !</p>
-  </div>
-  <div class="col-lg-2 service-icon">
-    <h2>Choix et expertise</h2>
-    <p>
-      Explorez notre large sélection de montures, discutez des verres, et
-      trouvez la paire parfaite en un seul essai, comme 76% de nos clients !
-    </p>
-    <p>Votre style, notre expertise !</p>
-  </div>
-  <div class="col-lg-2 service-icon">
-    <h2>Livraison et contrôle qualité</h2>
-    <p>
-      Recevez vos lunettes chez vous, notre nous assurons de leur conformité et
-      de votre entière satisfaction.
-    </p>
-    <p>Votre confiance, notre priorité !</p>
-  </div>
-  <div class="col-lg-2 service-icon">
-    <h2>Un service Après-vente fiable</h2>
-    <p>
-      En cas de besoin, nous restons à votre disposition pour ajustements et
-      réparations.
-    </p>
-    <p>Votre confort, notre engagement !</p>
+  <div class="container row align-items-center justify-center center">
+    <div
+      class="col-lg-3 col-sm-8 service-icon"
+      *ngFor="let info of domicileInfo"
+    >
+      <div class="service-text">
+        <h2>{{ info.title }}</h2>
+        <p>{{ info.description }}</p>
+        <p>{{ info.subtitle }}</p>
+      </div>
+    </div>
   </div>
 </div>
