@@ -21,12 +21,14 @@
       style="display: flex; align-items: center"
       [ngClass]="{ 'transparent-logo': isTransparent }"
     >
-      <img
-        src="/assets/images/logo Ralph Petit - RVB.jpg"
-        alt="Ralph Optique - Salon d'optique - Créateur de Regard"
-        class="col-md-3 logo-img"
-        [ngStyle]="{ transform: 'scale(' + logoScale + ')' }"
-      />
+      <a routerLink="/">
+        <img
+          src="/assets/images/logo Ralph Petit - RVB.jpg"
+          alt="Ralph Optique - Salon d'optique - Créateur de Regard"
+          class="col-md-3 logo-img"
+          [ngStyle]="{ transform: 'scale(' + logoScale + ')' }"
+        />
+      </a>
     </div>
   </div>
 </header>
