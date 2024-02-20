@@ -42,6 +42,7 @@ import { IframeBoxComponent } from "./components/iframe-box/iframe-box.component
 import { EquipementsComponent } from "./page/equipements/equipements.component";
 import { LentillesComponent } from "./page/equipements/equipement/lentilles.component";
 import { CarousselComponent } from "./components/caroussel/caroussel.component";
+import { DomicileComponent } from "./page/domicile/domicile.component";
 
 @NgModule({
   declarations: [
@@ -49,7 +50,7 @@ import { CarousselComponent } from "./components/caroussel/caroussel.component";
     HeaderComponent,
     FooterComponent,
     HomepageComponent,
-
+    DomicileComponent,
     ServiceComponent,
     NotFoundComponent,
     AboutComponent,
