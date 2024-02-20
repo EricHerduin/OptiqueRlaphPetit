@@ -11,6 +11,7 @@ import { Marque } from "src/app/Interfaces/marque.interface";
 export class CollectionsComponent implements OnInit {
   marques: Marque[] = [];
   isMarquesVisible: boolean = true;
+  marqueSelected: string = "";
 
   constructor(
     private marqueService: MarqueService,
@@ -20,7 +21,6 @@ export class CollectionsComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
       const paramsMarque = params.get("nomMarque");
-      console.log(paramsMarque);
       if (paramsMarque) {
         this.isMarquesVisible = false;
       }
