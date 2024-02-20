@@ -44,6 +44,18 @@ export class HomepageMainComponent implements OnInit {
       description:
         "Découvrez les dernières actualités et offres spéciales de notre magasin.",
     });
+    this.cardInfo.push({
+      src: "assets/images/stable-diffusion-xl3.jpeg",
+      title: "Nos Collections",
+      pageLink: "/equipements/nos_collections",
+      description: "Le must du style pour sublimer votre regard.",
+    });
+    this.cardInfo.push({
+      src: "assets/images/IMG_2275.jpeg",
+      title: "Nos Services",
+      pageLink: "/service",
+      description: "Notre envie permanente, vous accompagner.",
+    });
   }
 
   ngOnInit(): void {}

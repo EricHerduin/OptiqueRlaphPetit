@@ -12,8 +12,11 @@
     des plus stylés.
   </p>
   <h1>Ralph Petit, Créateur de regard</h1>
-  <div class="link-container">
-    <div class="link-container_page" *ngFor="let imagePath of cardInfo">
+  <div class="container link-container">
+    <div
+      class="link-container_page col-md-5"
+      *ngFor="let imagePath of cardInfo"
+    >
       <a routerLink="{{ imagePath.pageLink }}">
         <img class="link-container_page-img" [src]="imagePath.src" alt="" />
         <h2 class="link-container_page-title">{{ imagePath.title }}</h2>
